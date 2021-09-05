@@ -40,3 +40,6 @@ def ejercicio4(inv1, inv2, inv3):
     porcentaje2 = inv2 * 100 / total
     porcentaje3 = inv3 * 100 / total
     return porcentaje1, porcentaje2, porcentaje3
+
+def ejercicio5(saldo):
+    return saldo + (saldo * 0.015)
