@@ -62,3 +62,6 @@ def ejercicio9(tiempo_horas):
     descuento = (tiempo_horas * 20000) * 0.05
     pago = tiempo_horas * 20000 - descuento
     return pago, descuento
+
+def ejercicio10(inicial, final):
+    return (inicial - final) - ((inicial - final) * 0.2)
