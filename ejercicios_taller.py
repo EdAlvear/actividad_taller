@@ -86,3 +86,10 @@ def ejercicio14(n_personas, n_dias):
 
 def ejercicio15(n_dias):
     return ((n_dias - 1) * 200000) + 100000
+
+def ejercicio16(monto_total):
+    total_pago = (monto_total * 0.24) + monto_total
+    cuota_especial = total_pago / 2 / 4
+    couta_ordinaria = total_pago / 2 / 20
+
+    return cuota_especial, couta_ordinaria
