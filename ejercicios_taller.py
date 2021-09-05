@@ -83,3 +83,6 @@ def ejercicio14(n_personas, n_dias):
     total = (n_personas * 25000) * n_dias
     total_iva = total + total * 0.12
     return total_iva
+
+def ejercicio15(n_dias):
+    return ((n_dias - 1) * 200000) + 100000
