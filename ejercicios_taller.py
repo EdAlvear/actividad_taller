@@ -54,3 +54,6 @@ def ejercicio6(sueldo):
 
 def ejercicio7(n_palabras, tam, col):
     return (n_palabras * 20000) + (tam * 15000) + (col * 25000)
+
+def ejercicio8(tiempo):
+    return 100000 + (120000 * (tiempo - 1))
