@@ -65,3 +65,6 @@ def ejercicio9(tiempo_horas):
 
 def ejercicio10(inicial, final):
     return (inicial - final) - ((inicial - final) * 0.2)
+
+def ejercicio11(n_fotos):
+    return (n_fotos * 1500) + ((n_fotos * 1500) * 0.16)
