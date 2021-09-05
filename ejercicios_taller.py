@@ -76,3 +76,5 @@ def ejercicio12(monto):
 
     return ginecologia, traumatologia, pediatria
 
+def Eejercicio13(n_peliculas, n_dias):
+    return ((n_peliculas - 1) * 1500) * n_dias
