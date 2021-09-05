@@ -57,3 +57,8 @@ def ejercicio7(n_palabras, tam, col):
 
 def ejercicio8(tiempo):
     return 100000 + (120000 * (tiempo - 1))
+
+def ejercicio9(tiempo_horas):
+    descuento = (tiempo_horas * 20000) * 0.05
+    pago = tiempo_horas * 20000 - descuento
+    return pago, descuento
