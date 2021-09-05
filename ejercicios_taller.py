@@ -28,8 +28,15 @@ def ejercicio3():
 
 # Ejercicio 2
 
-def punto1(p, v, t):
+def ejercicio2(p, v, t):
     return (p * v) / (0.37 * (t + 460))
 
-def punto2(edad):
+def ejercicio3(edad):
     return (200 - edad) / 10
+
+def ejercicio4(inv1, inv2, inv3):
+    total = inv1 + inv2 + inv3
+    porcentaje1 = inv1 * 100 / total
+    porcentaje2 = inv2 * 100 / total
+    porcentaje3 = inv3 * 100 / total
+    return porcentaje1, porcentaje2, porcentaje3
