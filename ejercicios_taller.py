@@ -78,3 +78,8 @@ def ejercicio12(monto):
 
 def Eejercicio13(n_peliculas, n_dias):
     return ((n_peliculas - 1) * 1500) * n_dias
+
+def ejercicio14(n_personas, n_dias):
+    total = (n_personas * 25000) * n_dias
+    total_iva = total + total * 0.12
+    return total_iva
