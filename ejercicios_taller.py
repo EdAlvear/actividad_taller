@@ -30,3 +30,6 @@ def ejercicio3():
 
 def punto1(p, v, t):
     return (p * v) / (0.37 * (t + 460))
+
+def punto2(edad):
+    return (200 - edad) / 10
