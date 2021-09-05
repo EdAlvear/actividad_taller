@@ -26,7 +26,6 @@ def ejercicio3():
     y = ((((z+2-n)**2 * m+8/2 - 30) / 2 * 5 - 3)**5 + 15 * 3 - 9 / 3)**2 - 5 / 4
     return y
 
-# Ejercicio 2
 
 def ejercicio2(p, v, t):
     return (p * v) / (0.37 * (t + 460))
@@ -52,3 +51,6 @@ def ejercicio6(sueldo):
     sueldo_final = sueldo - ley - seguro_social - seguro_forsozo - caja
 
     return ley, seguro_social, seguro_forsozo, caja, sueldo_final
+
+def ejercicio7(n_palabras, tam, col):
+    return (n_palabras * 20000) + (tam * 15000) + (col * 25000)
