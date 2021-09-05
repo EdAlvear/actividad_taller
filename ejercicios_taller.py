@@ -1,7 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Sep  4 23:40:54 2021
 
+"""
 @author: Eduardo Alvear
 """
 
