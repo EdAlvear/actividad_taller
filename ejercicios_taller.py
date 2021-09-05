@@ -67,4 +67,12 @@ def ejercicio10(inicial, final):
     return (inicial - final) - ((inicial - final) * 0.2)
 
 def ejercicio11(n_fotos):
-    return (n_fotos * 1500) + ((n_fotos * 1500) * 0.16)
+    return (n_fotos * 1500) + ((n_fotos * 1500) * 0.160)
+
+def ejercicio12(monto):
+    ginecologia =  monto * 0.4
+    traumatologia = monto * 0.3
+    pediatria = monto * 0.3
+
+    return ginecologia, traumatologia, pediatria
+
